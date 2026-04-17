@@ -320,9 +320,11 @@
       color: #70d6d1;
       text-decoration: none;
       font-size: 1rem;
-      transition: all 0.3s ease;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
+      padding: 0.5rem 1.2rem;
+      border-radius: 50px;
+      border-color: #f50000;
+      border: 1px solid;
+      background-color: rgba(0, 0, 0, 1.0) !important;
     }
 
     footer a:hover {
@@ -384,11 +386,12 @@
     </nav>
   </header>
 
+
   <section id="home" class="hero">
     <div class="hero-content">
       <h1>Seu objetivo é possível</h1>
       <p>Transforme seu corpo e sua vida com treinamento de excelência personalizado para suas metas.</p>
-      <button class="btn btn-primary">Começar minha evolução</button>
+      <button class="btn btn-primary" onclick="window.location.href='#contact'">Começar minha evolução</button>
     </div>
   </section>
 
@@ -402,7 +405,7 @@
         <p>Sou Airon, personal trainer especializado em transformação corporal e ganho de performance. Desde 2023, venho dedicando minha carreira a ajudar pessoas a atingirem seus objetivos fitness com metodologia cientificamente comprovada.</p>
         <p>Minha filosofia é simples: resultados reais vêm de treino inteligente, nutrição adequada e acompanhamento consistente. Cada cliente é único, e cada programa é personalizado para sua realidade e metas.</p>
         <p>Já ajudei centenas de pessoas a ganharem massa muscular, perderem gordura e melhorarem significativamente sua qualidade de vida. Sua transformação também é possível.</p>
-        <button class="btn btn-primary">Começar minha avaliação</button>
+        <button class="btn btn-primary" onclick="window.location.href='#contact'">Começar minha evolução</button>
       </div>
     </div>
   </section>
@@ -432,7 +435,7 @@
       </div>
     </div>
     <div class="services-btn-container">
-      <button class="btn btn-primary">Quero meu treino personalizado</button>
+      <button class="btn btn-primary" onclick="window.location.href='#contact'">Quero meu treino personalizado</buttom>
     </div>
   </section>
 
@@ -463,12 +466,14 @@
         <img src="Logo.png" alt="AIRON TRAINING Logo">
       </div>
     </div>
-  </section>
-
-  <footer>
+        <footer>
     <a href="https://instagram.com/airontraining" target="_blank">@airontraining</a>
     <a href="mailto:contato@airontraining.com">@airontraining.com</a>
-  </footer>
+        </footer>
+    </div>
+  </section>
+
+
 
   <script>
     document.querySelectorAll('nav a').forEach(link => {
